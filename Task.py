@@ -37,3 +37,8 @@ student(city="Islamabad", name="Ahmed", age=25)
 # check for testing
 def greet(name):
     print(name) 
+
+# Testing Calls
+#greet() #TypeError: greet() missing 1 required positional argument: 'name'
+# greet(name="Ali")
+#greet(student="Ali") #TypeError: greet() got an unexpected keyword argument 'student'
